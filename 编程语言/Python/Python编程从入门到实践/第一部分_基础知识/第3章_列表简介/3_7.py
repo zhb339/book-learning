@@ -1,0 +1,36 @@
+names = ['chen xin', 'ruan xiao nan', 'wang wei']
+print(names[0] + ", come here!")
+print(names[1] + ", come here!")
+print(names[-1] + ", come here!")
+
+print("wangwei is busy! now \n")
+
+names.remove("wang wei")
+names.append("zou ying")
+print(names[0] + ", come here!")
+print(names[1] + ", come here!")
+print(names[-1] + ", come here!")
+
+print("\n i find larger desk")
+
+names.insert(0, "liu xiao li")
+names.insert(2, "wang wei")
+names.append("chen yan")
+print(names[0] + ", come here!")
+print(names[1] + ", come here!")
+print(names[2] + ", come here!")
+print(names[3] + ", come here!")
+print(names[4] + ", come here!")
+print(names[5] + ", come here!")
+
+print("big desk is not arrive, no i have only two girl can come")
+print("i'm sorry " + names.pop())
+print("i'm sorry " + names.pop())
+print("i'm sorry " + names.pop())
+print("i'm sorry " + names.pop())
+print(names[0] + " please com")
+print(names[1] + " please com")
+names.pop()
+names.pop()
+print("now names is: ")
+print(names)
