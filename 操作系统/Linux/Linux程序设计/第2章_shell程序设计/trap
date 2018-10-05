@@ -1,0 +1,7 @@
+#!/bin/sh
+
+trap 'echo 123' INT
+
+while true;do
+	sleep 1
+done

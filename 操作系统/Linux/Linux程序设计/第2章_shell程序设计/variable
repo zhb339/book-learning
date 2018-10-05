@@ -1,0 +1,11 @@
+#!/bin/sh
+
+IFS=''
+echo $*
+echo $1
+echo $2
+myvar="Hi there"
+echo $myvar
+echo "$myvar"
+echo '$myvar'
+echo \$myvar

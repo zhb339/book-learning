@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo "enter sss"
+read tt
+
+case "$tt" in
+	yes) echo "aaa";;
+	no ) echo "bbb";;
+	*  ) echo "sorry";;
+esac
+
+exit 0
